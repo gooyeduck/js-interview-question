@@ -4,7 +4,9 @@
 | Question | Answer |
 | -------- | ------ |
 | [Question 1](#001) | [Answer](#001) |
-| [Question 2](#001) | [Answer](#002) |
+| [Question 2](#002) | [Answer](#002) |
+
+<a name="001"></a>
 
 ## Question 1
 ```javascript
@@ -33,7 +35,7 @@ showModal()
 **Second Output (Second Function Call):** It displays 100 because before the second function call, showModal.timeout is explicitly set to 100. Hence, the function accesses and logs this updated value.
 
 
-<a name="001"></a>
+<a name="002"></a>
 
 ## Question 2
 ```javascript
@@ -68,5 +70,4 @@ name is a var variable, so it gets initialized to "John Doe" at this line.
 age is a let variable, which is also initialized at this line and holds the value 99.
 However, since age is accessed before its declaration using let, it will throw a ReferenceError. Meanwhile, name is accessed before its assignment, so it logs as undefined.
 
-<a name="002"></a>
 
